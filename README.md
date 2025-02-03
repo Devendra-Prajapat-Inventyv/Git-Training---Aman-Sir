@@ -83,6 +83,7 @@ After testing the release, switch back to the main branch and merge the release 
 git checkout main
 
 This merges the release branch back into the main branch, incorporating all the changes that have been tested and finalized.
+
 git merge release
 ```
 
