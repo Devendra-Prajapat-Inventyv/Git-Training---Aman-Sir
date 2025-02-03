@@ -96,15 +96,13 @@ In this step, you create a rule for your project. Below is a screenshot showing 
 
 ![Screenshot (22)](https://github.com/user-attachments/assets/8108bd61-4f1e-496f-b43f-43b3c929ea72)
 
-This rule is created to ensure that the necessary conditions and workflows are followed in your project repository.
 
 ## 2. **Pull Request Approval**
 
-After creating a pull request, it needs to be approved by the project maintainers. Below is a screenshot showing the pull request approval process:
+After creating a pull request, it needs to be approved . Below is a screenshot showing the pull request approval process:
 
 ![Screenshot (23)](https://github.com/user-attachments/assets/2c900fa3-7f35-4ef6-a5b5-c684cd0e3ac5)
 
-This step ensures that all code changes are reviewed and validated before being merged into the main codebase.
 
 ## 3. **After Merging the Pull Request**
 
@@ -112,5 +110,4 @@ Once the pull request is approved, the changes are merged into the main branch. 
 
 ![Screenshot (24)](https://github.com/user-attachments/assets/b46b2413-2a2f-4004-8545-a7a1882599e1)
 
-This final step confirms that the changes are now part of the main branch and ready for further development or release.
 
