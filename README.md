@@ -1,5 +1,5 @@
 
-# Git Workflow
+# Git Branching Workflow
 
 This section outlines the Git workflow for managing feature, release, and main branches using the following Git commands.
 ![Screenshot (18)](https://github.com/user-attachments/assets/338cc7dc-9990-4c61-b055-cf6959af5522)
