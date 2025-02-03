@@ -6,19 +6,19 @@ This section outlines the Git workflow for managing feature, release, and main b
 
 ## 1. Create and work on a new feature branch
 
-Start by creating a new branch for your feature:
+This command creates a new branch called feature and switches to it.
 
 ```bash
 git switch -c feature
 ```
 
-Make changes to your code and commit them:
+This command records changes to the repository.
 
 ```bash
 git commit -m "Add new feature"
 ```
 
-Repeat the commit step if needed for additional changes:
+Another commit to record additional changes that have been made since the previous commit.
 
 ```bash
 git commit -m "Update feature"
@@ -26,13 +26,13 @@ git commit -m "Update feature"
 
 ## 2. Switch to the main branch
 
-Once the feature is complete and committed, switch back to the main branch:
+Once the feature is complete and committed, This command switches your working directory back to the main branch.
 
 ```bash
 git checkout main
 ```
 
-Commit any necessary changes on the main branch:
+If there are any changes or updates to be made to the main branch, this commit will record those changes.
 
 ```bash
 git commit -m "Update main"
@@ -40,13 +40,13 @@ git commit -m "Update main"
 
 ## 3. Create and work on a release branch
 
-Create a new release branch to prepare for the release:
+ This command creates a new branch called release and switches to it. The release branch is typically used to prepare for a new production release.
 
 ```bash
 git switch -c release
 ```
 
-Commit any necessary changes to the release branch:
+After making necessary changes to the release branch, this command commits those changes.
 
 ```bash
 git commit -m "Prepare for release"
@@ -54,13 +54,13 @@ git commit -m "Prepare for release"
 
 ## 4. Switch back to the main branch
 
-After preparing the release, switch back to the main branch:
+This command switches back to the main branch from the release branch.
 
 ```bash
 git checkout main
 ```
 
-Commit any necessary changes:
+This commits changes to the main branch after switching back
 
 ```bash
 git commit -m "Final commit before release"
@@ -68,7 +68,7 @@ git commit -m "Final commit before release"
 
 ## 5. Merge the feature branch into the release branch
 
-Switch to the release branch and merge the feature branch into it:
+This switches your working directory to the release branch
 
 ```bash
 git checkout release
@@ -81,6 +81,8 @@ After testing the release, switch back to the main branch and merge the release 
 
 ```bash
 git checkout main
+
+This merges the release branch back into the main branch, incorporating all the changes that have been tested and finalized.
 git merge release
 ```
 
