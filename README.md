@@ -86,18 +86,6 @@ git merge release
 
 ---
 
-## Summary
-
-This workflow involves the following steps:
-
-1. Create a feature branch from main.
-2. Work and commit on the feature branch.
-3. Switch to the main branch.
-4. Create a release branch from main.
-5. Merge the feature branch into release.
-6. Merge the release branch into main.
-
-This process helps in managing development and release cycles in an organized way.
 # Git Workflow with Pull Requests
 
 This section outlines the process of creating a rule, approving a merge pull request, and merging the pull request in GitHub using screenshots to illustrate each step.
@@ -126,14 +114,3 @@ Once the pull request is approved, the changes are merged into the main branch. 
 
 This final step confirms that the changes are now part of the main branch and ready for further development or release.
 
----
-
-## Summary
-
-The process of managing pull requests in GitHub typically involves:
-
-1. **Creating rules** for your repository to guide development.
-2. **Submitting pull requests** for changes to be reviewed.
-3. **Approving and merging** the pull request into the main branch after successful review.
-
-This ensures proper collaboration, code quality, and smooth integration of new changes into your project.
